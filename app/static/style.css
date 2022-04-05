@@ -1,0 +1,70 @@
+h1 {
+    color:#339BEB;
+    font-family: Arial;
+    text-align: center; /*left,right,center,justify*/
+    line-height: 400%;
+}
+fieldset {
+    border:none;
+
+}
+container {
+    display: block;
+    text-align: center;
+}
+translate {
+    display: inline-block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:#1e2bd2;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 100%;
+    background-color: #d2e2e6;
+    width: 100%;
+    height:20%;
+    /*clear:both;*/
+    border-style: none;
+    border: none;
+}
+
+input {
+    width: 70%;
+    height: 5%;
+    padding: 1%;
+    border: 2px solid rgb(132, 132, 201) ;
+    background-image: url('searchicon.png');
+    border-radius: 4px;
+}
+input:hover {
+    width: 80%;
+    height: 8%;
+    border-radius: 8px;
+
+}
+input:focus {
+    width: 80%;
+    height: 8%;
+    border-radius: 8px;
+}
+.result {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    font-family: Arial;
+    font-style: italic;
+    background-color: #b2e6cc;
+    text-align: center;
+    width: 80%;
+    height: 10%;
+}
+.result:hover {
+    background-color: #d6ece1;
+    border-radius: 8px;
+}
